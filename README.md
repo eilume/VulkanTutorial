@@ -1,6 +1,6 @@
 # Vulkan Tutorial
 
-> A repo following along the awesome [Vulkan Tutorial](vulkan-tutorial.com) by Alexander Overvoorde ([@Overv](https://github.com/Overv)) + some small additions.
+> A repo following along the awesome [Vulkan Tutorial](https://vulkan-tutorial.com) by Alexander Overvoorde ([@Overv](https://github.com/Overv)) + some small additions.
 
 I followed every section of the tutorial and I've also continued past the tutorial a bit by adding (hardcoded) multi-texture support, PBR rendering (using [LearnOpenGL Tutorial's PBR shader](https://learnopengl.com/code_viewer_gh.php?code=src/6.pbr/1.1.lighting/1.1.pbr.fs)).
 
