@@ -9,7 +9,7 @@ I followed every section of the tutorial and I've also continued past the tutori
 <p align="center">
     <img src="docs/images/pbr-screenshot.webp" alt="">
     <br>
-    Example of PBR rendering on a quad. 4k textures used: <a href="https://polyhaven.com/a/brown_mud_leaves_01">Brown Mud Leaves (CC0)</a>
+    Example of PBR rendering on a quad. 8k textures used: <a href="https://polyhaven.com/a/brown_mud_leaves_01">Brown Mud Leaves (CC0)</a>
     <br>
     <br>
     <img src="docs/images/viking-screenshot.webp" alt="">
@@ -31,7 +31,7 @@ All used in the tutorial to focus on actual Vulkan-specific concepts + code.
 
 > A Vulkan-supported (i)GPU with ~256mb or more vRAM is required!
 
-There is a release for both [Windows (x64)](https://github.com/eilume/VulkanTutorial/releases/download/v1.0/win-x64-release.zip) + [Mac (Arm64/Apple Silicon)](https://github.com/eilume/VulkanTutorial/releases/download/v1.0/mac-arm64-release.zip) available with the assets (viking room + 2k PBR textures) bundled!
+There is a release for both [Windows (x64)](https://github.com/eilume/VulkanTutorial/releases/download/v1.0/win-x64-release.zip) + [Mac (Arm64/Apple Silicon)](https://github.com/eilume/VulkanTutorial/releases/download/v1.0/mac-arm64-release.zip) available with the assets (viking room + 4k PBR textures) bundled!
 
 ## Setup
 
@@ -64,6 +64,7 @@ $ ./shader_compile.sh
 
 ### General
 
+- `Esc` - **Quit** Application
 - `Enter` - **Toggle** Solid/Wireframe Shading
 - `1` - **Load** Viking Model Scene
 - `2` - **Load** PBR Quad Scene (likely will take a couple seconds since it has to generate mipmaps)
