@@ -1,0 +1,1 @@
+~/VulkanSDK/1.2.198.1/macOS/bin/glslc shaders/pbr_shader.frag -o shaders/pbr_frag.spv && ~/VulkanSDK/1.2.198.1/macOS/bin/glslc shaders/pbr_shader.vert -o shaders/pbr_vert.spv && ~/VulkanSDK/1.2.198.1/macOS/bin/glslc shaders/tess_control.tesc -o shaders/tess_control.spv && ~/VulkanSDK/1.2.198.1/macOS/bin/glslc shaders/tess_eval.tese -o shaders/tess_eval.spv
